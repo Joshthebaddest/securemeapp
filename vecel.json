@@ -2,22 +2,22 @@
     "version": 2,
     "builds": [
       {
-        "src": "react-frontend/dist/**/*",
+        "src": "frontend/dist/**/*",
         "use": "@vercel/static"
       },
       {
-        "src": "flask-backend/app.py",
+        "src": "backend/app.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "flask-backend/app.py"
+        "dest": "backend/app.py"
       },
       {
         "src": "/(.*)",
-        "dest": "react-frontend/dist/$1"
+        "dest": "frontend/dist/$1"
       }
     ]
   }
