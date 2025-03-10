@@ -138,8 +138,8 @@ Use the copy button to copy the generated password/passphrase to your clipboard 
 
 ## Authors
 
-- [@CyxAero](https://github.com/CyxAero)
+- [@Okem Marvelous](https://github.com/joshthebaddest)
 
 ## Feedback
 
-If you have any feedback, please reach out to me at <cyxkris6@gmail.com>
+If you have any feedback, please reach out to me at <gabrielmarvelous1@gmail.com>
